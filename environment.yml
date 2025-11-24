@@ -1,0 +1,20 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - conda
+  - mamba=2.1.1
+  - pip
+  - jupyterlab
+  - jupyterlab-spellchecker
+  - pandas
+  - otter-grader
+  - jupytext
+  - jupyterlab-git
+  - ipykernel
+  - nb_conda_kernels
+  - vl-convert-python[version='>=1.6.0']
+  - conda-lock
+prefix: /Users/pat0216/miniforge3
